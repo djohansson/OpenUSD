@@ -135,7 +135,7 @@ endif()
 
 
 # --TBB
-find_package(TBB REQUIRED COMPONENTS tbb)
+find_package(TBB REQUIRED)
 add_definitions(${TBB_DEFINITIONS})
 
 # --math
